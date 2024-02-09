@@ -8,36 +8,6 @@ import { ChatTypeSelector } from "./chat-type-selector";
 import { AI_NAME } from "@/features/theme/customise";
 import { useSession } from "next-auth/react";
 import { createTheme } from "@mui/material/styles";
-declare module "@mui/material/styles" {
-  interface TypographyVariants {
-    label: React.CSSProperties;
-  }
-
-  // allow configuration using `createTheme`
-  interface TypographyVariantsOptions {
-    label: React.CSSProperties;
-  }
-}
-
-// Update the Typography's variant prop options
-declare module "@mui/material/Typography" {
-  interface TypographyPropsVariantOverrides {
-    label: true;
-  }
-}
-
-const theme = createTheme({
-  typography: {
-    label: {
-      color: "#BF242F",
-      fontSize: 16,
-      fontWeight: "bold",
-    },
-  },
-});
-
-
-
 
 interface Prop {}
 
