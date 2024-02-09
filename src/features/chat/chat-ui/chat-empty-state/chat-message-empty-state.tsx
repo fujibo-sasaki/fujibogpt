@@ -7,6 +7,7 @@ import { ChatStyleSelector } from "./chat-style-selector";
 import { ChatTypeSelector } from "./chat-type-selector";
 import { AI_NAME } from "@/features/theme/customise";
 import { useSession } from "next-auth/react";
+import { createTheme } from "@mui/material/styles";
 
 
 interface Prop {}
@@ -16,11 +17,41 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
   const { data: session } = useSession();
 
   const { showFileUpload } = fileState;
+
+declare module "@mui/material/styles" {
+  interface TypographyVariants {
+    label: React.CSSProperties;
+  }
+
+  // allow configuration using `createTheme`
+  interface TypographyVariantsOptions {
+    label: React.CSSProperties;
+  }
+}
+
+// Update the Typography's variant prop options
+declare module "@mui/material/Typography" {
+  interface TypographyPropsVariantOverrides {
+    label: true;
+  }
+}
+
+const theme = createTheme({
+  typography: {
+    label: {
+      color: "#BF242F",
+      fontSize: 16,
+      fontWeight: "bold",
+    },
+  },
+});
+
+
   
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
-        <Typography variant="h3" className="text-primary">
+        <Typography variant="label" className="text-primary">
           {AI_NAME}にようこそ！
         </Typography>
           <p className="text-xs text-muted-foreground">
