@@ -8,6 +8,16 @@ import { ChatTypeSelector } from "./chat-type-selector";
 import { AI_NAME } from "@/features/theme/customise";
 import { useSession } from "next-auth/react";
 
+const theme = createTheme({
+  typography: {
+    label: {
+      color: "#BF242F",
+      fontSize: 12,
+      fontWeight: "bold",
+    },
+  },
+});
+
 interface Prop {}
 
 export const ChatMessageEmptyState: FC<Prop> = (props) => {
@@ -19,7 +29,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
-        <Typography variant="poster" className="text-primary">
+        <Typography variant="label1" className="text-primary">
           {AI_NAME}にようこそ！
         </Typography>
           <p className="text-xs text-muted-foreground">
