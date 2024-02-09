@@ -7,7 +7,6 @@ import { ChatStyleSelector } from "./chat-style-selector";
 import { ChatTypeSelector } from "./chat-type-selector";
 import { AI_NAME } from "@/features/theme/customise";
 import { useSession } from "next-auth/react";
-import { createTheme } from "@mui/material/styles";
 
 interface Prop {}
 
@@ -17,11 +16,10 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
 
   const { showFileUpload } = fileState;
 
-  
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
-        <Typography variant="h2" className="text-primary">
+        <Typography variant="h4" className="text-primary">
           {AI_NAME}にようこそ！
         </Typography>
           <p className="text-xs text-muted-foreground">
