@@ -8,7 +8,7 @@ import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs";
 export function ThemeToggle() {
   const { setTheme, theme } = useTheme();
   return (
-    <!--<Tabs
+    {//<Tabs
       defaultValue={theme}
       className="flex flex-col rounded-full overflow-hidden"
     >
@@ -35,6 +35,6 @@ export function ThemeToggle() {
           <Laptop2 size={18} />
         </TabsTrigger>
       </TabsList>
-    </Tabs>-->
+    </Tabs>}
   );
 }
