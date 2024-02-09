@@ -70,7 +70,7 @@ export const MainMenu = () => {
         </Button>
       </div>
       <div className="flex flex-col gap-2 items-center">
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
         <UserProfile />
       </div>
     </div>
