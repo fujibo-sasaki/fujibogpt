@@ -21,7 +21,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
-        <Typography variant="label" className="text-primary">
+        <Typography variant="h2" className="text-primary">
           {AI_NAME}にようこそ！
         </Typography>
           <p className="text-xs text-muted-foreground">
