@@ -8,16 +8,6 @@ import { ChatTypeSelector } from "./chat-type-selector";
 import { AI_NAME } from "@/features/theme/customise";
 import { useSession } from "next-auth/react";
 import { createTheme } from "@mui/material/styles";
-
-
-interface Prop {}
-
-export const ChatMessageEmptyState: FC<Prop> = (props) => {
-  const { fileState } = useChatContext();
-  const { data: session } = useSession();
-
-  const { showFileUpload } = fileState;
-
 declare module "@mui/material/styles" {
   interface TypographyVariants {
     label: React.CSSProperties;
@@ -46,6 +36,16 @@ const theme = createTheme({
   },
 });
 
+
+
+
+interface Prop {}
+
+export const ChatMessageEmptyState: FC<Prop> = (props) => {
+  const { fileState } = useChatContext();
+  const { data: session } = useSession();
+
+  const { showFileUpload } = fileState;
 
   
   return (
