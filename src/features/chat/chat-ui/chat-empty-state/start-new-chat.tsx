@@ -8,7 +8,7 @@ interface Prop {}
 
 export const StartNewChat: FC<Prop> = (props) => {
 
-　const style = {color: blue};
+　const style = {color: "blue"};
   
   return (
     <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
