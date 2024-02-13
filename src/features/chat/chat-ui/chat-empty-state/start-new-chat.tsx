@@ -30,6 +30,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・著作権侵害をしてしまう恐れがあるため、第三者の著作物を入力しない。固有名(既存著作物、作家名、作品の名称)を入力しない<br/>
           ・生成された回答結果に著作権侵害（既存の著作物との類似性・依拠性）がないか確認する<br/>
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
+          ・業務以外のプライベートな利用は控えてください
           </p>
           <p>【マニュアル】<br/>
           <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={style}>
