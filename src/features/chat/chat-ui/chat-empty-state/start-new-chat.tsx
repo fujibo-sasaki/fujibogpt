@@ -29,10 +29,8 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
           </p>
           <p>[マニュアル]<br/>
-          <font color="blue">
           <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank">
             操作マニュアル</a>
-          </font>
           </p>
           <p>下記の➕を押して会話を開始できます</p>
         </div>
