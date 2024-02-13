@@ -21,9 +21,9 @@ export const StartNewChat: FC<Prop> = (props) => {
         </Typography>
         <div className="flex flex-col gap-2">
           <p className="">
-          富士紡GPTは、文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
+          富士紡GPTは文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
           この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開します。
-          富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております。
+          富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております。<br/>
           以下の注意事項をご確認の上、富士紡GPTをご活用ください。詳細はマニュアルをご参照ください。
           </p>
           <p>[注意事項]<br/>
