@@ -7,6 +7,9 @@ import { NewChat } from "../../chat-menu/new-chat";
 interface Prop {}
 
 export const StartNewChat: FC<Prop> = (props) => {
+
+　const style = {color: blue};
+  
   return (
     <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <div className="col-span-2 gap-5 flex flex-col flex-1">
@@ -29,7 +32,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
           </p>
           <p>[マニュアル]<br/>
-          <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank">
+          <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={style}>
             操作マニュアル</a>
           </p>
           <p>下記の➕を押して会話を開始できます</p>
