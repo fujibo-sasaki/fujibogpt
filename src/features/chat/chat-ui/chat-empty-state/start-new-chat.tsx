@@ -7,7 +7,6 @@ import { NewChat } from "../../chat-menu/new-chat";
 interface Prop {}
 
 export const StartNewChat: FC<Prop> = (props) => {
-
 　const style = {color: "blue"};
   
   return (
@@ -24,9 +23,6 @@ export const StartNewChat: FC<Prop> = (props) => {
           &nbsp;&nbsp;富士紡GPTは文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
           &nbsp;&nbsp;この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたしますので、
           以下の注意事項をご確認の上、富士紡GPTのご利用をお願いいたします。詳細はマニュアルをご参照下さい。<br>
-          </p>
-    　　　<p>
-          ※富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております。
           </p>
           </br>
           <p>【注意事項】<br/>
