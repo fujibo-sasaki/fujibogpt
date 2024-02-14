@@ -9,7 +9,6 @@ interface Prop {}
 export const StartNewChat: FC<Prop> = (props) => {
 
 　const a_style = {color: "blue"};
-  const font_style = {color: "red"};
   
   return (
     <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
@@ -26,7 +25,8 @@ export const StartNewChat: FC<Prop> = (props) => {
           &nbsp;&nbsp;この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたしますので、
           以下の注意事項をご確認の上、富士紡GPTのご利用をお願いいたします。詳細はマニュアルをご参照下さい。<br>
           </p>
-    　　　<p style={font_style}>※富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております。
+    　　　<p>
+          ※富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております。
           </p>
           </br>
           <p>【注意事項】<br/>
