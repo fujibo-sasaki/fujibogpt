@@ -8,7 +8,8 @@ interface Prop {}
 
 export const StartNewChat: FC<Prop> = (props) => {
 
-　const style = {color: "blue"};
+　const a_style = {color: "blue"};
+  const font_style = {color: "red"};
   
   return (
     <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
@@ -22,9 +23,9 @@ export const StartNewChat: FC<Prop> = (props) => {
         <div className="flex flex-col gap-2">
           <p className="">
           &nbsp;&nbsp;富士紡GPTは文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
-          &nbsp;&nbsp;この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開します。<br/>
-          &nbsp;&nbsp;富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております。<br/>
-          以下の注意事項をご確認の上、富士紡GPTをご利用をお願いいたします。詳細はマニュアルをご参照下さい。
+          &nbsp;&nbsp;この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたしますので、
+          以下の注意事項をご確認の上、富士紡GPTのご利用をお願いいたします。詳細はマニュアルをご参照下さい。<br>
+    　　　<font style={font_style}>※富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております。</font><br/>
           </p>
           <p>【注意事項】<br/>
           ・第三者の著作物を入力しない。固有名詞(既存著作物、作家名、作品の名称)を入力しない<br/>
@@ -33,7 +34,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・業務以外のプライベートな利用は控える
           </p>
           <p>【マニュアル】<br/>
-          <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={style}>
+          <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={a_style}>
             操作マニュアル</a>
           </p>
           <p>下記の➕を押して会話を開始できます</p>
