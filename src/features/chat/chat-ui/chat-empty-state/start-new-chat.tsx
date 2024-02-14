@@ -24,9 +24,8 @@ export const StartNewChat: FC<Prop> = (props) => {
           <p className="">
           &nbsp;&nbsp;富士紡GPTは文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
           </p>
-          <p>&nbsp;&nbsp;この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたしますので、
-          以下の注意事項をご確認の上、富士紡GPTのご利用をお願いいたします。詳細はマニュアルをご参照下さい。<br/>
-          </p>
+          <p>&nbsp;&nbsp;この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたします。</p>
+          <p>以下の注意事項をご確認の上、富士紡GPTのご利用をお願いいたします。詳細はマニュアルをご参照下さい。<br/></p>
           <p style={font_style}>※富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております</p>
           <p>【注意事項】<br/>
           ・第三者の著作物を入力しない。固有名詞(既存著作物、作家名、作品の名称)を入力しない<br/>
@@ -34,6 +33,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
           ・業務以外のプライベートな利用は控える
           </p>
+          <br/>
           <p>【マニュアル】<br/>
           <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={a_style}>
             操作マニュアル</a>
