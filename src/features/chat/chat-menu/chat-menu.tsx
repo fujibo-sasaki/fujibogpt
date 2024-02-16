@@ -5,10 +5,10 @@ import { NewChat } from "./new-chat";
 
 export const ChatMenu = async () => {
   const items = await FindAllChatThreadForCurrentUser();
-  const img_style = {object-fit: contain};
+  
   return (
     <Menu className=" p-2">
-       <img src="/icon.jpg" className="img_style" />
+       <img src="/icon.jpg" style={{object-fit: contain}} />
       <MenuHeader className="justify-end">
         <NewChat />
       </MenuHeader>
