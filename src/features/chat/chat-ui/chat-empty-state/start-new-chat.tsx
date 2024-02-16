@@ -12,11 +12,11 @@ export const StartNewChat: FC<Prop> = (props) => {
   const font_style = {color: "red"};
   
   return (
-    <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
+    <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       {/* <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
       </div>  */}
-      <Card className="col-span-3 flex flex-col gap-5 p-5 ">
+      <Card className="gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
         {AI_NAME}にようこそ！
         </Typography>
