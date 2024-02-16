@@ -36,8 +36,10 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・業務以外のプライベートな利用は控える
           </p>
           <p>【マニュアル】<br/>
-          <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={a_style}>
-            操作マニュアル</a>
+          &nbsp;&nbsp;
+            <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={a_style}>
+            操作マニュアル
+            </a>
           </p>
           <p>下記の➕を押して会話を開始できます</p>
         </div>
