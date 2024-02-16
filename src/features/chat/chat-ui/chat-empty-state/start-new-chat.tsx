@@ -12,7 +12,7 @@ export const StartNewChat: FC<Prop> = (props) => {
   const font_style = {color: "red"};
   
   return (
-    <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
+    <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
       {/* <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
       </div>  */}
