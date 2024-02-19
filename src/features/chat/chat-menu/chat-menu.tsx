@@ -5,7 +5,7 @@ import { NewChat } from "./new-chat";
 
 export const ChatMenu = async () => {
   const items = await FindAllChatThreadForCurrentUser();
-  const img_style = {width:"1158px",height:"291px"};
+  const img_style = {};
   return (
     <Menu className=" p-2">
        <img src="/icon.jpg" style={img_style} />
