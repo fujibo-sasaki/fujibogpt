@@ -10,7 +10,7 @@ export const ChatMenu = async () => {
   
   return (
     <Menu className=" p-2">
-       <img src="/icon.jpg" className="object-contain" />
+       <img src="/icon.jpg" className="object-contain h-50" />
       <MenuHeader className="justify-end">
         <NewChat />
       </MenuHeader>
