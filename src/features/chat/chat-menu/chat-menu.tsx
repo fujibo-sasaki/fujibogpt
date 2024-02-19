@@ -2,11 +2,11 @@ import { Menu, MenuContent, MenuHeader } from "@/components/menu";
 import { FindAllChatThreadForCurrentUser } from "@/features/chat/chat-services/chat-thread-service";
 import { MenuItems } from "./menu-items";
 import { NewChat } from "./new-chat";
-import './imgstyles.css';
+import styles './imgstyles.css';
 
 export const ChatMenu = async () => {
   const items = await FindAllChatThreadForCurrentUser();
-  const img_style = {};
+  
   return (
     <Menu className=" p-2">
        <img src="/icon.jpg" className={imgstyle} />
