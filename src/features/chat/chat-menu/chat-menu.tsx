@@ -2,7 +2,7 @@ import { Menu, MenuContent, MenuHeader } from "@/components/menu";
 import { FindAllChatThreadForCurrentUser } from "@/features/chat/chat-services/chat-thread-service";
 import { MenuItems } from "./menu-items";
 import { NewChat } from "./new-chat";
-import styles './imgstyles.css';
+import "./imgstyle.css";
 
 export const ChatMenu = async () => {
   const items = await FindAllChatThreadForCurrentUser();
