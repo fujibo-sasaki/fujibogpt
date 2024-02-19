@@ -6,6 +6,7 @@ import "./imgstyle.css";
 
 export const ChatMenu = async () => {
   const items = await FindAllChatThreadForCurrentUser();
+
   
   return (
     <Menu className=" p-2">
