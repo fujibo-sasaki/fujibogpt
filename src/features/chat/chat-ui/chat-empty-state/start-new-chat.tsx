@@ -16,7 +16,7 @@ export const StartNewChat: FC<Prop> = (props) => {
       {/* <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
       </div>  */}
-       <img src="/icon.jpg" className="object-contain w-40 h-50 top-0 right-0" />
+       <img src="/icon.jpg" className="object-contain w-40 h-50 top-0 left-0" />
       <Card className="gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
         {AI_NAME}にようこそ！
