@@ -12,6 +12,7 @@ export const StartNewChat: FC<Prop> = (props) => {
   const font_style = {color: "red"};
   
   return (
+    <div><img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 right-0" /></div>
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
       {/* <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
@@ -49,7 +50,6 @@ export const StartNewChat: FC<Prop> = (props) => {
           <NewChat />
         </div>
       </Card>
-      <div><img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 right-0" /></div>
     </div>
   );
 };
