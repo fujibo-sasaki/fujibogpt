@@ -12,12 +12,11 @@ export const StartNewChat: FC<Prop> = (props) => {
   const font_style = {color: "red"};
   
   return (
-    <div><img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 right-0" /></div>
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
       {/* <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
       </div>  */}
-       <img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 left-0" />
+       <div><img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 right-0" /></div>
       <Card className="gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
         {AI_NAME}にようこそ！
