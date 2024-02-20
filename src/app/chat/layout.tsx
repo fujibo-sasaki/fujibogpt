@@ -22,7 +22,6 @@ export default async function RootLayout({
         <ChatMenuContainer>
           <ChatMenu />
         </ChatMenuContainer>
-        <img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 right-0" />
         {children}
       </div>
     </>
