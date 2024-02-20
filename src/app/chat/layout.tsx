@@ -19,6 +19,7 @@ export default async function RootLayout({
     <>
       <MainMenu />
       <div className="flex-1 flex rounded-md overflow-hidden bg-card/70">
+        <img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 right-0" />
         <ChatMenuContainer>
           <ChatMenu />
         </ChatMenuContainer>
