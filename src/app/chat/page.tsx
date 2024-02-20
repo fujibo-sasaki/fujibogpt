@@ -7,7 +7,6 @@ export default async function Home() {
   return (
     <Card className="h-full items-center flex justify-center flex-1">
       <StartNewChat />
-      <div><img src="/icon.jpg" className="object-contain w-40 h-50 relative top-0 right-0" /></div>
     </Card>
   );
 }
