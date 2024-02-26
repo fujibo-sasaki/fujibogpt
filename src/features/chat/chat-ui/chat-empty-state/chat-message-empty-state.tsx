@@ -30,7 +30,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
             ご利用の際は、以下の項目を選択してください。
 
           </p> */}
-          <p className="">
+          <p className="text-xs text-muted-foreground">
           富士紡GPTは文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
           </p>
           <p>この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたします。</p>
