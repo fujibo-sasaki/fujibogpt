@@ -8,7 +8,7 @@ import {
   PanelRightClose,
   Home,
   Lightbulb,
-  MenuBook,
+  BookOpenText,
 } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "../theme/theme-toggle";
@@ -76,7 +76,7 @@ export const MainMenu = () => {
           variant={"outline"}
         >
           <Link target="_blank" href='https://prompt.quel.jp/index.php?imode=1&theme=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9' title="マニュアル" className="relative">
-            <MenuBook />
+            <BookOpenText />
             <UpdateIndicator />
           </Link>
         </Button>
