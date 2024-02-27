@@ -8,6 +8,7 @@ import {
   PanelRightClose,
   Home,
   Lightbulb,
+  MenuBook,
 } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "../theme/theme-toggle";
