@@ -1,6 +1,7 @@
 import Typography from "@/components/typography";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { UpdateIndicator } from "../../change-log/update-indicator";
 import { Card } from "@/components/ui/card";
 import { FC } from "react";
 import { useChatContext } from "../chat-context";
