@@ -74,7 +74,6 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <Button
           asChild
           className="rounded-full w-[10px] h-[10px] p-2 bg-red-500"
-          variant={"outline"}
           >
             <Link target="_blank" href='https://prompt.quel.jp/index.php?imode=1&theme=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9' title="便利な使い方" className="relative">
               <Info />
