@@ -28,9 +28,9 @@ export const StartNewChat: FC<Prop> = (props) => {
           </p>
           <p>この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたします。</p>
           <p>以下の注意事項をご確認の上、富士紡GPTのご利用をお願いいたします。詳細は
-          <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={a_style}>
+          <b><a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={a_style}>
           マニュアル
-          </a>
+          </a></b>
           をご参照下さい。
           <br/></p>
           <p style={font_style}>※富士紡GPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております</p>
