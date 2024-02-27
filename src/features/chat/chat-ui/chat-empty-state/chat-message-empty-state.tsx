@@ -7,6 +7,15 @@ import { ChatStyleSelector } from "./chat-style-selector";
 import { ChatTypeSelector } from "./chat-type-selector";
 import { AI_NAME } from "@/features/theme/customise";
 import { useSession } from "next-auth/react";
+import {
+  LayoutDashboard,
+  MessageCircle,
+  PanelLeftClose,
+  PanelRightClose,
+  Home,
+  Lightbulb,
+  MessageCircleQuestion,
+} from "lucide-react";
 
 interface Prop {}
 
