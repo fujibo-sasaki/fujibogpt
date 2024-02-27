@@ -54,7 +54,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           をご参照下さい。
              <br/>
           </p>
-          <p style={font_style} className="text-sm">※富士紡ChatGPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております<br/></p>
+          <p style={font_style} className="text-sm">※富士紡ChatGPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております<br/><br/></p>
           <p className="text-sm">【注意事項】<br/>
           ・第三者の著作物を入力しない。固有名詞(既存著作物、作家名、作品の名称)を入力しない<br/>
           ・生成された回答結果に著作権侵害（既存の著作物との類似性・依拠性）がないか確認する<br/>
@@ -65,8 +65,9 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
             <div className="flex-none w-7 h-14 gap-0"><HelpCircle /></div><div className="flex-none w-80 h-14">会話スタイル・利用機能についてはこちら</div>
             <div className="flex-none w-7 h-14 gap-0"><Info /></div><div className="flex-none w-64 h-14">活用事例についてはこちら</div>
           </div>
+        <br/>
         <div className="flex flex-col gap-2">
-          <br/><p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground">
           会話スタイルを選択してください。
           </p>
           <ChatStyleSelector disable={false} />
