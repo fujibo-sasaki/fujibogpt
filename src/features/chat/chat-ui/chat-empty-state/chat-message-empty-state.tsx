@@ -62,7 +62,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           ・業務以外のプライベートな利用は控える
           </p>
         　<Link target="_blank" href='https://prompt.quel.jp/index.php?imode=1&theme=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9' title="便利な使い方" className="relative">
-            <Info />活用事例はこちら
+            <Info>活用事例はこちら</Info >
           </Link>
           <HelpCircle />
         <div className="flex flex-col gap-2">
