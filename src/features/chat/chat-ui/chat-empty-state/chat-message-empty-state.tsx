@@ -1,5 +1,6 @@
 import Typography from "@/components/typography";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { FC } from "react";
 import { useChatContext } from "../chat-context";
