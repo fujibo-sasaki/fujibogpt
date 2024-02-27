@@ -62,7 +62,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           ・業務以外のプライベートな利用は控える
           </p>
           <div className="flex">
-            <div className="flex-none w-12 h-14 gap-0"><HelpCircle /></div><div className="flex-none w-32 h-14">活用事例はこちら&nbsp;</div>
+            <div className="flex-none w-16 h-14 gap-0"><HelpCircle /></div><div className="flex-none w-32 h-14">活用事例はこちら</div>
             <div className="flex-none w-7 h-14 gap-0"><Info /></div><div className="flex-none w-64 h-14">会話スタイルについてはこちら</div>
           </div>
         <div className="flex flex-col gap-2">
