@@ -25,7 +25,7 @@ export const MainMenu = () => {
     <div className="flex flex-col justify-between p-2">
       <div className="flex gap-5  flex-col  items-center">
         <img src="/logo_a.jpg" className="object-contain w-30 h-14" />
-        <Button
+        {/* <Button
           onClick={toggleMenu}
           className="rounded-full w-[40px] h-[40px] p-1 text-primary"
           variant={"outline"}
@@ -37,7 +37,7 @@ export const MainMenu = () => {
           className="rounded-full w-[40px] h-[40px] p-1 text-primary"
           variant={"outline"}
         >
-        </Button>
+        </Button>  */}
         <Button
           asChild
           className="rounded-full w-[40px] h-[40px] p-2 text-primary"
@@ -60,7 +60,7 @@ export const MainMenu = () => {
         ) : (
           <></>
         )}
-        <Button
+       {/* <Button
           asChild
           className="rounded-full w-[40px] h-[40px] p-2 text-primary"
           variant={"outline"}
@@ -69,13 +69,13 @@ export const MainMenu = () => {
             <Lightbulb />
             <UpdateIndicator />
           </Link>
-        </Button>
+        </Button>  */}
         <Button
           asChild
           className="rounded-full w-[40px] h-[40px] p-2 text-primary"
           variant={"outline"}
         >
-          <Link target="_blank" href='https://prompt.quel.jp/index.php?imode=1&theme=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9' title="マニュアル" className="relative">
+          <Link target="_blank" href='https://prompt.quel.jp/index.php?imode=1&theme=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9' title="便利な使い方" className="relative">
             <BookOpenText />
             <UpdateIndicator />
           </Link>
