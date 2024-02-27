@@ -15,9 +15,8 @@ import {
   MessageCircle,
   PanelLeftClose,
   PanelRightClose,
-  Home,
-  Lightbulb,
   Info,
+  HelpCircle,
 } from "lucide-react";
 
 interface Prop {}
@@ -62,18 +61,13 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
           ・業務以外のプライベートな利用は控える
           </p>
-          <p className="text-sm">【マニュアル】<br/>
-          &nbsp;&nbsp;
-            <a href="http://groupeip1.intrafujibo.co.jp/keijiban/helppdf.nsf/MainTopicCopyCreationView/25EE7DC54E5E10D3492589250028B477?openDocument" target="_blank" style={a_style}>
-            操作マニュアル
-            </a>
-          </p>
+        　<Link target="_blank" href='https://prompt.quel.jp/index.php?imode=1&theme=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9' title="便利な使い方" className="relative">
+            <Info />活用事例はこちら
+          </Link>
+          <HelpCircle />
         <div className="flex flex-col gap-2">
           <p className="text-sm text-muted-foreground">
           会話スタイルを選択してください。
-          <Link target="_blank" href='https://prompt.quel.jp/index.php?imode=1&theme=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9' title="便利な使い方" className="relative">
-              <Info />
-            </Link>
           </p>
           <ChatStyleSelector disable={false} />
         </div>
