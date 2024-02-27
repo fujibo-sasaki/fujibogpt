@@ -61,8 +61,9 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
           ・業務以外のプライベートな利用は控える
           </p>
-          <div className="grid grid-cols-4 gap-1">
-            <div><HelpCircle /></div><div>活用事例はこちら</div><div><Info /></div><div>会話スタイルについてはこちら</div>
+          <div className="flex">
+            <div className="flex-none w-14 h-14"><HelpCircle /></div><div className="flex-none w-14 h-14">活用事例はこちら</div>
+            <div className="flex-none w-14 h-14"><Info /></div><div className="flex-none w-14 h-14">会話スタイルについてはこちら</div>
           </div>
         <div className="flex flex-col gap-2">
           <p className="text-sm text-muted-foreground">
