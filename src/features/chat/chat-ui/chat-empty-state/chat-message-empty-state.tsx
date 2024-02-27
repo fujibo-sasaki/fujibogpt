@@ -14,7 +14,7 @@ import {
   PanelRightClose,
   Home,
   Lightbulb,
-  MessageCircleQuestion,
+  Info,
 } from "lucide-react";
 
 interface Prop {}
