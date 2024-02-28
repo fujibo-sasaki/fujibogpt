@@ -7,7 +7,8 @@ import { NewChat } from "../../chat-menu/new-chat";
 interface Prop {}
 
 export const StartNewChat: FC<Prop> = (props) => {
-  
+
+  const p_style = {fontSize: "16px"};
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
       <Card className="gap-5 pr-1 py-5 pl-4 ">
@@ -20,7 +21,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           富士紡ChatGPTは文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
           </p>
           <p>この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたします。</p>
-          <p>
+          <p style={p_style}>
             以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。詳細は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
