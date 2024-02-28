@@ -8,7 +8,7 @@ interface Prop {}
 
 export const StartNewChat: FC<Prop> = (props) => {
 
-  const p_style = {fontSize: "16px"};
+  const p_style = {fontSize: "15px"};
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
       <Card className="gap-5 pr-1 py-5 pl-4 ">
