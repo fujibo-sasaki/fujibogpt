@@ -26,7 +26,6 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
   const { data: session } = useSession();
 
   const { showFileUpload } = fileState;
-  const a_style = {color: "blue",textDecoration: "underline"};
 
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
@@ -66,7 +65,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <div className="flex-none w-80 h-10">
             会話スタイル・利用機能については
             <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" style={a_style}>
+              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
               </a>
             </b>
@@ -75,7 +74,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <div className="flex-none w-64 h-10">
             活用事例については
             <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" style={a_style}>
+              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600">
                 こちら
               </a>
             </b>
