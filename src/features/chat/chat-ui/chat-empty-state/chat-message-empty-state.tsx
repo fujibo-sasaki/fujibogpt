@@ -46,7 +46,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
         <p className="text-sm">
         以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。詳細は
         <b>
-          <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600">
+          <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
             マニュアル
           </a>
         </b>
@@ -74,7 +74,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <div className="flex-none w-64 h-10">
             活用事例については
             <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600">
+              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
               </a>
             </b>
