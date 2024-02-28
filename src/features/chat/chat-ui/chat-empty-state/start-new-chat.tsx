@@ -10,7 +10,7 @@ export const StartNewChat: FC<Prop> = (props) => {
   
   return (
     <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
-      <Card className="gap-5 p-5 ">
+      <Card className="gap-5 pr-2 py-5 pl-5 ">
         <Typography variant="h4" className="text-primary">
         {AI_NAME}にようこそ！
         </Typography>
