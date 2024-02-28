@@ -26,7 +26,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
   const { data: session } = useSession();
 
   const { showFileUpload } = fileState;
-  const a_style = {color: "blue";text-decoration: underline};
+  const a_style = {color: "blue",text-decoration: "underline"};
   const font_style = {color: "red"};
 
   return (
