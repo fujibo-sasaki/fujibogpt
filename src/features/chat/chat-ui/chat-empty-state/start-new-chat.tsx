@@ -33,7 +33,7 @@ export const StartNewChat: FC<Prop> = (props) => {
             <br/>
           </p>
           <p className="text-red-500" style={p_style}>※富士紡ChatGPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております</p>
-          <p className="text-red-500" style={p_style}>※情報漏洩の危険性があるため、富士紡ChatGPT以外の個人向け生成AIの利用は控えてください</p>
+          <p className="text-red-500" style={p_style}>※富士紡ChatGPT以外の個人向け生成AIは、情報漏洩の危険性があるため、利用を控えてください</p>
           <br/>
           <p style={p_style}>【注意事項】<br/>
           ・第三者の著作物を入力しない。固有名詞(既存著作物、作家名、作品の名称)を入力しない<br/>
