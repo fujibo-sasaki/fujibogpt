@@ -39,7 +39,17 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
           ・業務以外のプライベートな利用は控える
           </p>
-          <br/>
+          <div className="flex justify-center flex-wrap gap-1 p-2">
+           <div className="flex-none w-7 h-10 gap-0"><AppWindows /></div>
+           <div className="flex-none w-80 h-10">
+           画面の構成について
+            <b>
+             <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
+                こちら
+             </a>
+             </b>
+          　</div>
+          </div>
           <p>下記の➕を押して会話を開始できます</p>
         </div>
         <div className="-mx-1 -mb-1 p-1 flex flex-col border-t bg-muted">
