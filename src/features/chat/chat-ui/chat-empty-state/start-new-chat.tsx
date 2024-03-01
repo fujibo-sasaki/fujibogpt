@@ -3,6 +3,13 @@ import { Card } from "@/components/ui/card";
 import { AI_NAME } from "@/features/theme/customise";
 import { FC } from "react";
 import { NewChat } from "../../chat-menu/new-chat";
+import {
+  LayoutDashboard,
+  MessageCircle,
+  PanelLeftClose,
+  PanelRightClose,
+  AppWindow,
+} from "lucide-react";
 
 interface Prop {}
 
@@ -40,7 +47,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・業務以外のプライベートな利用は控える
           </p>
           <div className="flex justify-center flex-wrap gap-1 p-2">
-           <div className="flex-none w-7 h-10 gap-0"><AppWindows /></div>
+           <div className="flex-none w-7 h-10 gap-0"><AppWindow /></div>
            <div className="flex-none w-80 h-10">
            画面の構成について
             <b>
