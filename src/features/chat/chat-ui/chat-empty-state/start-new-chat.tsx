@@ -29,13 +29,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           </p>
           <p style={p_style}>この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたします。</p>
           <p style={p_style}>
-            以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。詳細は
-            <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
-               マニュアル
-              </a>
-            </b>
-            をご参照下さい。
+            以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。
             <br/>
           </p>
           <p className="text-red-500" style={p_style}>※富士紡ChatGPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております</p>
@@ -46,7 +40,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           ・回答結果の出典(根拠・裏付け)の確認や、回答結果の正確性を確認する<br/>
           ・業務以外のプライベートな利用は控える
           </p>
-          <div className="flex justify-center flex-wrap gap-1 p-2">
+          <div className="flex justify-start flex-wrap gap-1 p-2">
            <div className="flex-none w-7 h-10 gap-0"><AppWindow /></div>
            <div className="flex-none w-80 h-10">
            画面の構成について
