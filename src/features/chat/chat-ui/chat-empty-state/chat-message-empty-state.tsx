@@ -45,13 +45,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
         </p>
         <p className="text-sm">この度、DXの一環として、2024年3月からプレビュー版を社内利用限定で公開いたします。</p>
         <p className="text-sm">
-        以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。詳細は
-        <b>
-          <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
-            マニュアル
-          </a>
-        </b>
-        をご参照下さい。
+        以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。
         <br/>
         </p>
         <p className="text-sm text-red-500">※富士紡ChatGPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております<br/><br/></p>
@@ -63,7 +57,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
         </p>
         <div className="flex justify-center flex-wrap gap-1 p-2">
           <div className="flex-none w-7 h-10"><AppWindow /></div>
-          <div className="flex-none w-40 h-10 pr-4">
+          <div className="flex-none w-auto h-10 pr-4">
             画面の説明は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
@@ -72,7 +66,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
             </b>
           </div>
           <div className="flex-none w-7 h-10"><HelpCircle /></div>
-          <div className="flex-none w-80 h-10 pr-4">
+          <div className="flex-none w-auto h-10 pr-4">
             会話スタイル・利用機能の説明は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
@@ -81,7 +75,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
             </b>
           </div>
           <div className="flex-none w-7 h-10"><Info /></div>
-          <div className="flex-none w-36 h-10">
+          <div className="flex-none w-auto h-10">
             活用事例は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
