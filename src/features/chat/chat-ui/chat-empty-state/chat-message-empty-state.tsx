@@ -48,7 +48,8 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
         以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。
         <br/>
         </p>
-        <p className="text-sm text-red-500">※富士紡ChatGPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております<br/><br/></p>
+        <p className="text-sm text-red-500">※富士紡ChatGPTで質問した内容は、外部に漏れないようにセキュリティ対策を行っております</p>
+        <p className="text-red-500" style={p_style}>※富士紡ChatGPT以外の個人向け生成AIは、情報漏洩の危険性があるため、利用を控えてください<br/><br/></p>
         <p className="text-sm">【注意事項】<br/>
           ・第三者の著作物を入力しない。固有名詞(既存著作物、作家名、作品の名称)を入力しない<br/>
           ・生成された回答結果に著作権侵害（既存の著作物との類似性・依拠性）がないか確認する<br/>
