@@ -58,7 +58,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
         <div className="flex justify-center flex-wrap gap-1 p-2">
           <div className="flex-none w-7 h-10"><AppWindow /></div>
           <div className="flex-none w-auto h-10 pr-4">
-            画面の説明は
+            本画面の説明は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
