@@ -57,8 +57,8 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           ・業務以外のプライベートな利用は控える
         </p>
         <div className="flex justify-center flex-wrap gap-1 p-2">
-          <div className="w-7 h-10"><AppWindow /></div>
-          <div className="w-auto h-10 pr-4">
+          <div className="w-7 flex"><AppWindow /></div>
+          <div className="w-auto flex pr-4">
             本画面の説明は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
@@ -66,8 +66,8 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
               </a>
             </b>
           </div>
-          <div className="w-7 h-10"><HelpCircle /></div>
-          <div className="w-auto h-10 pr-4">
+          <div className="w-7 flex"><HelpCircle /></div>
+          <div className="w-auto flex pr-4">
             会話スタイル・利用機能の説明は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
@@ -75,8 +75,8 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
               </a>
             </b>
           </div>
-          <div className="w-7 h-10"><Info /></div>
-          <div className="w-auto h-10">
+          <div className="w-7 flex"><Info /></div>
+          <div className="w-auto flex">
             活用事例は
             <b>
               <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
