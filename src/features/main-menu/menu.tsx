@@ -25,7 +25,7 @@ export const MainMenu = () => {
     <div className="flex flex-col justify-between p-2">
       <div className="flex gap-5  flex-col  items-center">
         <img src="/logo_a.jpg" className="object-contain w-30 h-14" />
-        <Button
+      {/* <Button
           onClick={toggleMenu}
           className="rounded-full w-[40px] h-[40px] p-1 text-primary"
           variant={"outline"}
@@ -37,7 +37,7 @@ export const MainMenu = () => {
           className="rounded-full w-[40px] h-[40px] p-1 text-primary"
           variant={"outline"}
         >
-        </Button> 
+        </Button>  */}
         <Button
           asChild
           className="rounded-full w-[40px] h-[40px] p-2 text-primary"
