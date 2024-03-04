@@ -51,6 +51,7 @@ export const StartNewChat: FC<Prop> = (props) => {
              </a>
             </b>
             <br/>
+            <br/>
            </div>
           </div>
         </div>
