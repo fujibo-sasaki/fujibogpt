@@ -46,10 +46,11 @@ export const StartNewChat: FC<Prop> = (props) => {
            <div className="w-auto flex">
             本画面の説明は
             <b>
-             <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
+             <a href="http://groupeip1.intrafujibo.co.jp/pdf/%E5%AF%8C%E5%A3%AB%E7%B4%A1ChatGPT_%E6%9C%AC%E7%94%BB%E9%9D%A2%E3%81%AE%E8%AA%AC%E6%98%8E.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
              </a>
             </b>
+            <br/>
            </div>
           </div>
         </div>
