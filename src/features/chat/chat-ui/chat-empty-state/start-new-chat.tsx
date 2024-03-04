@@ -17,7 +17,7 @@ export const StartNewChat: FC<Prop> = (props) => {
 
   const p_style = {fontSize: "15px"};
   return (
-    <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9">
+    <div className="grid grid-cols-1 w-full items-center container mx-auto max-w-4xl justify-center h-full gap-9 overflow-scroll">
       <Card className="gap-5 p-5">
         <Typography variant="h4" className="text-primary">
         {AI_NAME}にようこそ！
