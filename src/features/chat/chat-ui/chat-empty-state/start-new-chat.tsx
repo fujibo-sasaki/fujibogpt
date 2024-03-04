@@ -53,9 +53,7 @@ export const StartNewChat: FC<Prop> = (props) => {
            </div>
           </div>
         </div>
-        <div className="flex flex-col gap-1">
-          <p>下記の➕を押して会話を開始できます</p>
-        </div>
+        <p>下記の➕を押して会話を開始できます</p>
         <div className="-mx-1 -mb-1 p-1 flex flex-col border-t bg-muted">
           <NewChat />
         </div>
