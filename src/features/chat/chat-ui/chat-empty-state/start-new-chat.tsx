@@ -49,11 +49,11 @@ export const StartNewChat: FC<Prop> = (props) => {
              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
              </a>
-             </b>
-          　</div>
+            </b>
+           </div>
           </div>
-          <p>下記の➕を押して会話を開始できます</p>
         </div>
+        <p>下記の➕を押して会話を開始できます</p>
         <div className="-mx-1 -mb-1 p-1 flex flex-col border-t bg-muted">
           <NewChat />
         </div>
