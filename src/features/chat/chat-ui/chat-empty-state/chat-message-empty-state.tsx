@@ -79,7 +79,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <div className="w-auto flex">
             活用事例は
             <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/http://groupeip1.intrafujibo.co.jp/pdf/%E5%AF%8C%E5%A3%AB%E7%B4%A1ChatGPT_%E6%B4%BB%E7%94%A8%E4%BA%8B%E4%BE%8B.pdf" target="_blank" className="text-blue-600 hover:underline">
+              <a href="http://groupeip1.intrafujibo.co.jp/pdf/%E5%AF%8C%E5%A3%AB%E7%B4%A1ChatGPT_%E6%B4%BB%E7%94%A8%E4%BA%8B%E4%BE%8B.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
               </a>
             </b>
