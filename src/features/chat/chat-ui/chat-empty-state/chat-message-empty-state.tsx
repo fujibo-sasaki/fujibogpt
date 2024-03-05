@@ -61,7 +61,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <div className="w-auto flex pr-4">
             本画面の説明は
             <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
+              <a href="http://groupeip1.intrafujibo.co.jp/pdf/%E5%AF%8C%E5%A3%AB%E7%B4%A1ChatGPT_%E6%9C%AC%E7%94%BB%E9%9D%A2%E3%81%AE%E8%AA%AC%E6%98%8E.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
               </a>
             </b>
@@ -70,7 +70,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <div className="w-auto flex pr-4">
             会話スタイル・利用機能の説明は
             <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
+              <a href="http://groupeip1.intrafujibo.co.jp/pdf/%E5%AF%8C%E5%A3%AB%E7%B4%A1ChatGPT_%E4%BC%9A%E8%A9%B1%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%83%BB%E5%88%A9%E7%94%A8%E6%A9%9F%E8%83%BD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
               </a>
             </b>
@@ -79,7 +79,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
           <div className="w-auto flex">
             活用事例は
             <b>
-              <a href="http://groupeip1.intrafujibo.co.jp/pdf/富士紡ChatGPT利用マニュアル.pdf" target="_blank" className="text-blue-600 hover:underline">
+              <a href="http://groupeip1.intrafujibo.co.jp/pdf/http://groupeip1.intrafujibo.co.jp/pdf/%E5%AF%8C%E5%A3%AB%E7%B4%A1ChatGPT_%E6%B4%BB%E7%94%A8%E4%BA%8B%E4%BE%8B.pdf" target="_blank" className="text-blue-600 hover:underline">
                 こちら
               </a>
             </b>
