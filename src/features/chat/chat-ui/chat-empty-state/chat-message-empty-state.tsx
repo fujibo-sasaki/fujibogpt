@@ -39,7 +39,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
             まだまだ未熟なAIですが、皆様のご協力により、AIの成長を目指しています。
             ご利用の際は、以下の項目を選択してください。
             </p>
-        */}
+        */}{/* */} 
         <p className="text-sm">
         富士紡ChatGPTは文章の要約や生成、WEB検索が可能な富士紡グループ独自の生成AI(ChatGPT)です。<br/>
         </p>
