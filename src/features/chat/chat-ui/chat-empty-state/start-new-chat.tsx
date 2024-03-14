@@ -31,7 +31,7 @@ export const StartNewChat: FC<Prop> = (props) => {
             以下の注意事項をご確認の上、富士紡ChatGPTのご利用をお願いいたします。
             <br/>
           </p>
-          <p className="text-red-500" style={p_style}>※質問情報は社外に漏洩することがないセキュアな環境となります</p>
+          <p className="text-red-500" style={p_style}>※質問情報が社外に漏洩することがないセキュアな環境となります</p>
           <p className="text-red-500" style={p_style}>※富士紡ChatGPT以外の個人向け生成AIは、情報漏洩の危険性があるため、利用を控えてください</p>
           <p className="text-red-500" style={p_style}>※富士紡ChatGPT(Ver3.5)は画像生成に非対応です。画像生成が可能なVer4.0については今後検討します</p>
           <br/>
